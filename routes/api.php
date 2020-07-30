@@ -27,3 +27,5 @@ Route::delete('articles/{article}', 'ArticleController@delete');
 Route::post('register', 'Auth\RegisterController@register');
 
 Route::post('login', 'Auth\LoginController@login');
+
+Route::post('logout', 'Auth\LoginController@logout');
